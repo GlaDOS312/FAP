@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
 <title>Tutorial de Alert em JavaScript - Linha de Código</title>
 <script>
 
-function pesos(p1, p2, p3, p4)
-{
-    var p1 = parseInt (prompt("Digite o peso 1:"))
-    var p2 = parseInt (prompt("Digite o peso 2:"))
-    var p3 = parseInt (prompt("Digite o peso 3:"))
-    var p4 = parseInt (prompt("Digite o peso 4:"))
+    var n1
+    var n2
+    var n3
+    var n4
+    var p1
+    var p2
+    var p3
+    var p4
 
-    return pesos
+    function notas()
+    {
+        n1 = parseInt(prompt("Insira sua primera nota"))
+        n2 = parseInt(prompt("Insira sua segunda nota"))
+        n3 = parseInt(prompt("Insira sua terceira nota"))
+        n4 = parseInt(prompt("Insira sua quarta nota"))
+    
+        alert ("Você inseriu as Notas!")
+    }
+    
+
+    function pesos()
+{
+    p1 = parseInt (prompt("Digite o peso 1:"))
+    p2 = parseInt (prompt("Digite o peso 2:"))
+    p3 = parseInt (prompt("Digite o peso 3:"))
+    p4 = parseInt (prompt("Digite o peso 4:"))
+
+    alert ("Você inseriu os Pesos!")
 }
 
-function botao1()
+function media () 
 {
-    var n1 = parseInt(prompt("Insira sua primera nota"))
-    var n2 = parseInt(prompt("Insira sua segunda nota"))
-    var n3 = parseInt(prompt("Insira sua terceira nota"))
-    var n4 = parseInt(prompt("Insira sua quarta nota"))
+    var vmedia = ((n1 * p1) + (n2 * p2) + (n3 * p3) + (n4 * p4))
+    var soma = (p1 + p2 + p3 + p4)
+    var pmedia = vmedia/soma
 
-    return botao1
+    alert("Sua média ponderada é: " + pmedia)
+
 }
+
+
 
 </script>
 </head>
 <body>
 
-<input type="button" onclick="pesos()" value="Inserir os pesos" />
-<input type="button" onclick= botao1() value="Insira a nota dos alunos"/>
+<input type="button" onclick= "notas()" value="Inserir as notas."/>
+<input type="button" onclick= "pesos()" value="Inserir os pesos."/>
+<input type="button" onclick= "media()" value="Aperte pra ver sua média."/>
 
 </body>
 </html></div>
