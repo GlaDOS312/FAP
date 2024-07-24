@@ -14,17 +14,19 @@
     var p2
     var p3
     var p4
+    var messageErro = "Não tem peso ou nota para o cálculo"
 
+    
     function notas()
     {
         n1 = parseInt(prompt("Insira sua primera nota"))
         n2 = parseInt(prompt("Insira sua segunda nota"))
         n3 = parseInt(prompt("Insira sua terceira nota"))
         n4 = parseInt(prompt("Insira sua quarta nota"))
-    
-        alert ("Você inseriu as Notas!")
     }
     
+       
+
 
     function pesos()
 {
@@ -35,18 +37,27 @@
 
     alert ("Você inseriu os Pesos!")
 }
+if (n1 || n2 || n3 || n4 == 0)
+{
+    alert(messageError)
+}
+else if (n1 || n2 || n3 || n4 == 0){
+
+    alert(messageError)
+
+} else{
 
 function media () 
 {
-    var vmedia = ((n1 * p1) + (n2 * p2) + (n3 * p3) + (n4 * p4))
-    var soma = (p1 + p2 + p3 + p4)
+    var vmedia = (n1 * p1) + (n2 * p2) + (n3 * p3) + (n4 * p4)
+    var soma = (p1 + p2 +p3 + p4)
     var pmedia = vmedia/soma
 
     alert("Sua média ponderada é: " + pmedia)
 
+    return pmedia
 }
-
-
+}
 
 </script>
 </head>
