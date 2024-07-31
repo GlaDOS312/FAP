@@ -6,8 +6,9 @@ for (i = 0; i < a.length; i++){
     for (j = 0; j < a[i].length; j++){
 
         soma[i] += a[i][j]
-        console.log(soma)
+        
     }
+    
 
 }
 
