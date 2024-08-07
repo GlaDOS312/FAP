@@ -6,4 +6,16 @@ class contaBancaria {
         this.saldo = 200
         this.limite = 450
     }
+
+    depositar() {
+        //função depositar
+    }
+
+    saldo() {
+        //função exibir saldo
+    }
+
+    transferir() {
+        //função tranferir
+    }
 }
