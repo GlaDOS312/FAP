@@ -22,5 +22,5 @@ class Tipo extends Bolacha {
 
 }
 
-let Comida = new Bolacha ("Treloso")
+let Comida = new Bolacha ("Vitarela")
 console.log(Comida)
