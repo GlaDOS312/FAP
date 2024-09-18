@@ -1,4 +1,4 @@
-class Animal {
+class Animal{
 
     tamanho : string
     idade : number
