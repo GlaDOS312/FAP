@@ -1,6 +1,6 @@
 import { Usuario } from "./Usuario";
 
-export class Admnistrador extends Usuario {
+export class Administrador extends Usuario {
     
     private _token : number
 
@@ -13,7 +13,7 @@ export class Admnistrador extends Usuario {
 
     public Administrando() : void {
     
-        console.log("Admnistrando")
+        console.log("Administrando")
     }
 
     public GetToken() : number {
