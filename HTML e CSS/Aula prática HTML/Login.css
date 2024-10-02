@@ -1,0 +1,44 @@
+:root {
+    --main-color: #F23322;
+    --section-color: #EBE0CE;
+    --letter-color: #232A24;
+    --second-letter-color: #C4392A;
+    --text-font-family: Arial, Helvetica
+}
+
+h1 {
+    color: var(--second-letter-color);
+    text-align: center;
+}
+
+body {
+
+    background-color: var(--main-color);
+}
+
+main {
+    min-width: 250px;
+    max-width: 600px;
+    min-height: 500px;
+    height: 500px;
+    max-height: 500px;
+    flex-direction: column;
+    
+}
+
+fieldset {
+
+    border: 3px solid var(--section-color);
+    border-radius: 10px;
+}
+
+section{
+    border-radius: 10px;
+background-color: var(--section-color);
+}
+
+.styled{
+    border-radius: 4px;
+    background-color: var(--main-color)
+
+}
