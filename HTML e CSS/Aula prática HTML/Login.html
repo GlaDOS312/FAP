@@ -8,23 +8,36 @@
     
 </head>
 <body>
-   
-        <form method="get" autocomplete="on"></form>
-        <fieldset>
+   <main>
+    
+        <header> 
+            <h1>Tokufome</h1>
+        </header>
+        
           
        <section>
-        <header> <h1>Tokufome</h1></header>
-            <label for="usuario">Nome do usuário</label><br>
-            <input type="text" id="fname" name:="fname"><br><br>
-            <label for="senha">Digite sua senha:</label> <br>
-            <input type="password" id="lname" name:="lname"><br><br>
-            <input class="styled" type="button" value="Confirmar"> <br><br>
-            <div>
-            <a href="insira outro link">Esqueci minha senha</a> <a href="insira o link">Cadastre-se</a> <br><br>
+        <div>
+            <legend>Nome do usuário</legend>
+            <input type="text" id="user" name:="user"><br><br>
         </div>
-            <footer>Restaurante Tokufome - Rua do Azulão, 33 Bairro Casa Forte</footer>
+        <div>
+            <legend>Senha</legend>
+            <input type="password" id="senha" name:="senha"><br><br>
+        </div> 
+            
+            <button id="submit" onclick="checkpassord()">Confirmar </button><br><br>
+            
+            <div>
+                <a href="insira outro link">Esqueci minha senha</a> 
+                <a href="insira o link">Cadastre-se</a> <br><br>
+            </div>
+       
         </section>
-    </fieldset>
+           
+       
+        <footer>Restaurante Tokufome - Rua do Azulão, 33 Bairro Casa Forte </footer>
+       
+        </main>
         
             
     
