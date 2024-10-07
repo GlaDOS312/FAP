@@ -14,8 +14,6 @@ h1 {
     text-align: center;
 }
 
-
-
 main {
     min-width: 250px;
     max-width: 600px;
@@ -39,9 +37,6 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-
-}
-legend{
 
 }
 
